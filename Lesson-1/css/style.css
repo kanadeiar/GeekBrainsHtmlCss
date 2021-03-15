@@ -1,3 +1,43 @@
 body {
     font-family: sans-serif;
 }
+.main p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1f3f68;
+}
+.main h1 {
+    font-size: 64px;
+    color: #1f3f68;
+}
+.main h2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+.main h3 {
+    font-size: 36px;
+    text-align: center;
+}
+.main h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color:#1f3f68;
+}
+.contactform input, textarea {
+    border: 1px solid #356ead;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+.contactform button {
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 117, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
