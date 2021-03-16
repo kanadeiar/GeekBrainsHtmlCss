@@ -41,3 +41,10 @@ body {
     color: #ffffff;
     text-transform: uppercase;
 }
+
+a:hover {
+    color: red;
+}
+.main li:first-child {
+    color: red;
+}
