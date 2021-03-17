@@ -14,7 +14,6 @@
     align-items: center;
     height: 120px;
     background-color: transparent;
-    margin: 10px;
 }
 .menu li {
     font-family: sans-serif;
@@ -71,7 +70,6 @@ p {
 }
 .top_info {
     width: 600px;
-    margin: 10px;
 }
 .top_info p {
     background: transparent;
@@ -85,16 +83,16 @@ p {
     display: flex;
 }
 
-.main h2 {
+.content h2 {
     font-weight: 500;
     font-size: 44px;
     text-align: center;
 }
-.main h3 {
+.content h3 {
     font-size: 36px;
     text-align: center;
 }
-.main h4 {
+.content h4 {
     font-size: 20px;
     line-height: 30px;
     color:#1f3f68;
