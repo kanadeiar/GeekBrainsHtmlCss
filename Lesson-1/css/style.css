@@ -6,6 +6,7 @@
     width: 1140px;
     margin: 0px auto;
 }
+
 /* меню */
 .menu {
     display: flex;
@@ -48,6 +49,12 @@
 .top_info {
     background: transparent;
 }
+.top_info h1 {
+    width: 510px;
+}
+.top_info p {
+    width: 425px;
+}
 
 /* подвал */
 .footer {
@@ -57,8 +64,18 @@
 .footer h3, p, a, div {
     background: transparent;
 }
+.footer_header {
+    width: 495px;
+}
+.footer_header h3 {
+    width: 340px;
+}
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+}
 
-
+/* тело */
 body {
     font-family: sans-serif;
 }
@@ -66,9 +83,6 @@ p {
     font-size: 16px;
     line-height: 26px;
     color: #1f3f68;
-}
-.top_info {
-    width: 600px;
 }
 .top_info p {
     background: transparent;
@@ -81,7 +95,10 @@ p {
 .content .triple_card {
     display: flex;
 }
-
+.content .triple_card .one_card {
+    width: 359px;
+    margin: 10px;
+}
 .content h2 {
     font-weight: 500;
     font-size: 44px;
@@ -97,7 +114,11 @@ p {
     color:#1f3f68;
 }
 
-
+/* форма контактов */
+.contact_all {
+    display: flex;
+    justify-content: space-around;
+}
 .contactform input, textarea {
     border: 1px solid #356ead;
     box-sizing: border-box;
@@ -115,3 +136,4 @@ p {
     color: #ffffff;
     text-transform: uppercase;
 }
+
