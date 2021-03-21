@@ -191,18 +191,67 @@ body {
 }
 
 
-
+/* заголовок контактов */
+.image_contacts {
+    height: 250px;
+    background-image: url("../img/image_contacts.png");
+    margin-top: 30px;
+}
+.image_contacts h1 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+.image_contacts p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    width: 75%;
+    margin: 0 auto;
+}
 
 /* форма контактов */
 .contact_all {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.contactform {
+    width: 540px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 96px;
+}
+.contactform h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+.contactform p {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    margin-top: 32px;
 }
 .contactform input, textarea {
     border: 1px solid #356ead;
     box-sizing: border-box;
     border-radius: 10px;
     opacity: 0.4;
+    padding: 20px 20px;
 }
 .contactform button {
     background: #5a98d0;
@@ -214,7 +263,44 @@ body {
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
+    padding: 10px 10px;
+    cursor: pointer;
 }
+.contacts img {
+    height: 180px;
+    margin-top: 50px;
+}
+.contacts h4 {
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+.contacts p {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+.contacts a {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    text-decoration: none;
+}
+.contacts ul>li {
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
 
 /* подвал */
 .footer {
