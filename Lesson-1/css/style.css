@@ -416,6 +416,19 @@ body {
     .footer_info li {
         margin-bottom: 12px;
     }
+    /* страница контактов */
+    .contact_all {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts {
+        width: 350px;
+        margin-bottom: 60px;
+    }
+    .form_map {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 667px) {
@@ -538,5 +551,9 @@ body {
     }
     .footer_info {
         padding-left: 40px;
+    }
+    /* страница контактов */
+    .contactform {
+        width: 100%;
     }
 }
