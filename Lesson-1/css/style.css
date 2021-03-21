@@ -15,7 +15,7 @@ body {
 /* верхушка */
 .header_main {
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    height: 768px;
+    min-height: 768px;
 }
 .menu {
     display: flex;
@@ -32,8 +32,7 @@ body {
     justify-content: space-between;
     background-image: url(../img/illustration.png);;
     background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: bottom;
+    background-position: right center;
 }
 .top_info h1 {
     width: 504px;
@@ -73,7 +72,7 @@ body {
 .what-we-do {
     margin-top: 64px;
 }
-.what-we-do .heading {
+.what-we-do h3 {
     font-weight: 300;
     font-size: 36px;
     line-height: 46px;
@@ -306,7 +305,7 @@ body {
 /* подвал */
 .footer {
     background-color: #316099;
-    height: 657px;
+    min-height: 657px;
 }
 .footer_parent {
     display: flex;
@@ -361,6 +360,7 @@ body {
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.4;
+    padding-bottom: 30px;
 }
 .footer_button a {
     background: #5A98D0;
@@ -373,4 +373,170 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-top: 165px;
+}
+
+/* адаптивный дизайн */
+
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .top {
+        background-size: 48%;
+        background-position: right 200px;
+    }
+    .card-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin-bottom: 32px;
+    }
+    .footer_parent {
+        padding-left: 92px;
+        padding-right: 92px;
+    }
+    .footer_info {
+        padding-left: 92px;
+        padding-right: 92px;
+    }
+    .footer_header {
+        padding-top: 47px;
+    }
+    .footer_copyright {
+        padding-left: 92px;
+        padding-right: 92px;
+    }
+    .footer_info {
+        display: block;
+        padding-left: 121px;
+    }
+    .footer_info li {
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 667px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header_main {
+        min-height: 520px;
+        box-sizing: border-box;
+    }
+    .top_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top_info h1 {
+        padding-top: 10px;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .top_info p {
+        padding-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .top {
+        background-image: none;
+    }
+    .top_button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        line-height: 26px;
+        padding: 0 8px;
+    }
+    .what-we-do {
+        margin-top: 40px;
+    }
+    .what-we-do h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .card-box {
+        padding-top: 32px;
+    }
+    .card {
+        width: 100%;
+    }
+    .text_project {
+        width: 100%;
+    }
+    .project_parent p {
+        top: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .project_item p {
+        right: 16px;
+    }
+    .project_item_left p {
+        left: 16px;
+    }
+    .project_item_right p {
+        left: 16px;
+    }
+    .project_duplets {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+    .project_item_left {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    .project_item_right {
+        margin-bottom: 16px;
+    }
+    .footer_parent {
+        flex-direction: column;
+    }
+    .footer_parent {
+        padding-left: 0;
+        padding-right: 0;
+        align-items: center;
+    }
+    .footer_info {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer_copyright {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer_header {
+        width: 100%;
+        padding-top: 18px;
+    }
+    .footer_header h3 {
+        width: 100%; 
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;       
+    }
+    .footer_header p {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .footer_info li {
+        width: 100%;
+    }
+    .footer_info a {
+        width: 100%;
+    }
+    .footer_button a {
+        margin-top: 12px;
+        margin-bottom: 41px;
+    }
+    .footer_info {
+        padding-left: 40px;
+    }
 }
