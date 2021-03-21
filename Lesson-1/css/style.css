@@ -195,6 +195,7 @@ body {
 .image_contacts {
     height: 250px;
     background-image: url("../img/image_contacts.png");
+    background-size: 100%;
     margin-top: 30px;
 }
 .image_contacts h1 {
